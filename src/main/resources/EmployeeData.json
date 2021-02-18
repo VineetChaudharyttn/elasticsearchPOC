@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Vineet Chaudhary",
+    "title": "Software Engineer",
+    "competency": "JAVA",
+    "skills": ["spring","css","java","elasticsearch","linux","html","Mongo DB","hibernate","caching","javascript","jquery"],
+    "currentProject": {
+      "projectId": 1,
+      "projectName": "Bluebell",
+      "clientName": "To The New"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Pankaj Chaudhary",
+    "title": "Technical Lead",
+    "competency": "Python",
+    "skills": ["linux","html","Mongo DB","hibernate","caching","javascript","jquery"],
+    "currentProject": {
+      "projectId": 1,
+      "projectName": "Bluebell",
+      "clientName": "To The New"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Ashish Chaudhary",
+    "title": "Senior Software Engineer",
+    "competency": "JAVA",
+    "skills": ["spring","css","java","elasticsearch","linux","html","Mongo DB","hibernate","caching"],
+    "currentProject": {
+      "projectId": 2,
+      "projectName": "Met.se",
+      "clientName": "To The New"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Deepak Chaudhary",
+    "title": "Software Engineer",
+    "competency": "iOS",
+    "skills": ["java","elasticsearch","html","Mongo DB","hibernate","caching","javascript","jquery"],
+    "currentProject": {
+      "projectId": 2,
+      "projectName": "Met.se",
+      "clientName": "To The New"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Aaryash Chaudhary",
+    "title": "Software Engineer",
+    "competency": "Android",
+    "skills": ["java","elasticsearch","linux","Mongo DB","hibernate","caching"],
+    "currentProject": {
+      "projectId": 2,
+      "projectName": "Met.se",
+      "clientName": "To The New"
+    }
+  }
+]
