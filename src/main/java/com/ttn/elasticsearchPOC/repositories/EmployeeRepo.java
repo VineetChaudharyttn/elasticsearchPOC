@@ -20,9 +20,6 @@ public interface EmployeeRepo /*extends ElasticsearchRepository<Employee, String
 
     Page<Employee> findByName(String name, Pageable pageable);
 
-//    @Query("{\"range\": {\"authors.age\": {\"gte\": \"?0\", \"lte\": \"?1\"}}}")
-//    Page<Employee> findByAuthorsAgeInRange(int minAge, int maxAge, Pageable pageable);
-
     @Query("{\"multi_match\" : {\"query\": \"?0\", \"fields\": [ \"id\", \"title\", \"publishedDate\", \"description\", \"categories\", \"authors.id\", \"authors.name\", \"authors.age\"]}}")
     Page<Employee> searchOnAllFields(String query, Pageable pageable);
 }
